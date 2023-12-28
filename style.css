@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+/* ------------------------------- container ------------------------------- */
+
+.container-xxl{
+    margin-bottom: 40px !important;
+}
+
+
+/* ------------------------------ dropdown-menu ----------------------------- */
+.dropdown-menu{
+    width: 500px ;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+/* --------------------------------- banner --------------------------------- */
+
+.banner-text{
+    top:250px;
+}
+
+/* --------------------------------- inspire -------------------------------- */
+
+.inspire .card:hover .show{
+    visibility:  visible!important;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+   
+    transition: 1s ease all;
+    opacity: 1 !important;
+}
+
+
+/* ---------------------------------- shop ---------------------------------- */
+
+.shop a{
+    text-decoration: none;
+    
+}
+
+
+/* ------------------------------ sample banner ----------------------------- */
+.sample_banner{
+    transition: all 1s ease-in-out; 
+}
+.sample_banner:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+/* ---------------------------------- color --------------------------------- */
+
+.color a{
+    text-decoration:none ;
+}
+
+/* -------------------------------- flooring -------------------------------- */
+
+
+.flooring_banner .card{
+    width: 100%;
+    overflow: hidden;
+}
+
+.flooring_banner .card img{
+    width: 100%;
+    height: 100%;
+        transition: all 2s ease-in-out;
+}
+.flooring_banner .card:hover img{
+    transform: scale(2,2)
+}
+
+
+/* --------------------------------- footer --------------------------------- */
+
+
+.footer{
+    background-color: #5F6F73!important;
+}
