@@ -3,12 +3,10 @@
 
 
 
-
-
 /* ------------------------------- container ------------------------------- */
 
 .container-xxl{
-    margin-bottom: 40px !important;
+    margin-bottom: 10px !important;
 }
 
 
@@ -24,6 +22,8 @@
 }
 
 /* --------------------------------- banner --------------------------------- */
+
+
 
 .banner-text{
     top:250px;
@@ -89,3 +89,161 @@
 .footer{
     background-color: #5F6F73!important;
 }
+
+@media screen and (max-width:992px){
+
+.banner h1{
+    font-size: 2rem !important;
+}
+
+.banner-text{
+    top:200px;
+}
+
+.banner button{
+    font-size: .8rem !important;
+}
+
+}
+
+
+
+@media screen and (max-width:750px){
+    .banner h1{
+        font-size: 1.5rem !important;
+    }
+    
+    .banner-text{
+        top:180px;
+    }
+    .banner button{
+        font-size: .5rem !important;
+    }
+
+  
+    
+}
+
+
+
+@media screen and (max-width:550px){
+    .banner h1{
+        font-size: 1rem !important;
+    }
+    
+    .banner-text{
+        top:140px;
+    }
+    .banner button{
+        font-size: .5rem !important;
+    }
+    
+
+    
+    .navbar-toggler{
+        line-height: 0px !important;
+        padding: 3px !important;
+    }
+    .navbar-toggler-icon{
+        font-size: 12px !important;
+    }
+    nav svg{
+        width: 50%;
+    }
+    .mid-section{
+        width: 30%;
+    }
+    .end-section button i{
+        line-height: 0px !important;
+        font-size: smaller;
+    }
+
+    .complete_message h1{
+        font-size: 1.3rem !important;
+
+    }
+    .complete_message p{
+        font-size: .8rem !important;
+    }
+
+    .two_box h5{
+        font-size: 1rem !important;
+    }
+
+    .flooring_banner h1{
+        font-size: 1.2rem !important;
+    }
+    .flooring_banner button{
+        font-size: .6rem !important;
+    }
+
+
+}
+
+@media screen and (max-width:368px){
+    /* --------------------------------- navbar --------------------------------- */
+
+    .navbar-toggler{
+        line-height: 0px !important;
+        padding: 3px !important;
+    }
+    .navbar-toggler-icon{
+        font-size: 8px !important;
+    }
+    .start-section{
+        width: 15%;
+    }
+    .mid-section{
+        width: 30%;
+    }
+    .end-section button i{
+        line-height: 0px !important;
+        font-size: 8px !important;
+    }
+
+
+
+
+    /* --------------------------------- banner --------------------------------- */
+    .banner h1{
+        font-size: 1rem !important;
+    }
+    
+    .banner-text{
+        top:120px;
+    }
+    .banner button{
+        font-size: .5rem !important;
+    }
+
+
+    /* --------------------------------- welcome -------------------------------- */
+
+    .welcome h1{
+        font-size: 1.5rem !important;
+    }
+    .welcome .p{
+        font-size: .8rem !important;
+    }
+
+    /* ---------------------------- complete message ---------------------------- */
+
+    .complete_message h1{
+        font-size: 1rem !important;
+
+    }
+    .complete_message p{
+        font-size: .5rem !important;
+    }
+
+    /* ----------------------------- flooring banner ---------------------------- */
+
+    .flooring_banner h1{
+        font-size: 1rem !important;
+    }
+    .flooring_banner button{
+        font-size: .4rem !important;
+    }
+    
+}
+
