@@ -1,5 +1,7 @@
 
-
+*{
+    overflow-x: hidden !important;
+}
 
 
 
@@ -44,7 +46,8 @@ nav svg{
 
 
 .banner-text{
-    top:180px;
+    top:250px;
+    max-width: 500px;
 }
 
 /* --------------------------------- inspire -------------------------------- */
@@ -179,6 +182,10 @@ nav svg{
     .end-section button i{
         line-height: 0px !important;
         font-size: smaller;
+    }
+
+    .welcome h1{
+        text-align: center;
     }
 
 
