@@ -9,6 +9,24 @@
     margin-bottom: 10px !important;
 }
 
+/* --------------------------------- navbar --------------------------------- */
+
+.navbar-toggler{
+    line-height: 0px !important;
+    padding: 5px !important;
+}
+.navbar-toggler-icon{
+    font-size: 12px !important;
+}
+nav svg{
+    width: 80%;
+}
+.mid-section{
+    width: 60%;
+}
+
+
+
 
 /* ------------------------------ dropdown-menu ----------------------------- */
 .dropdown-menu{
@@ -26,7 +44,7 @@
 
 
 .banner-text{
-    top:250px;
+    top:180px;
 }
 
 /* --------------------------------- inspire -------------------------------- */
@@ -96,12 +114,15 @@
     font-size: 2rem !important;
 }
 
-.banner-text{
-    top:200px;
-}
+
 
 .banner button{
     font-size: .8rem !important;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
 
 }
@@ -109,17 +130,21 @@
 
 
 @media screen and (max-width:750px){
-    .banner h1{
-        font-size: 1.5rem !important;
-    }
-    
-    .banner-text{
-        top:180px;
-    }
-    .banner button{
-        font-size: .5rem !important;
-    }
+ 
 
+    .navbar-toggler{
+        line-height: 0px !important;
+        padding: 5px !important;
+    }
+    .navbar-toggler-icon{
+        font-size: 12px !important;
+    }
+    nav svg{
+        width: 80%;
+    }
+    .mid-section{
+        width: 60%;
+    }
   
     
 }
@@ -128,34 +153,44 @@
 
 @media screen and (max-width:550px){
     .banner h1{
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
     }
     
-    .banner-text{
-        top:140px;
-    }
+    
     .banner button{
-        font-size: .5rem !important;
+        font-size: .9rem !important;
     }
     
 
     
     .navbar-toggler{
         line-height: 0px !important;
-        padding: 3px !important;
+        padding: 5px !important;
     }
     .navbar-toggler-icon{
         font-size: 12px !important;
     }
     nav svg{
-        width: 50%;
+        width: 80%;
     }
     .mid-section{
-        width: 30%;
+        width: 60%;
     }
     .end-section button i{
         line-height: 0px !important;
         font-size: smaller;
+    }
+
+
+    .sample_banner{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .sample_banner img{
+        width: 100%;
+        height: 100%;
+        transform: scale(1,1);
     }
 
     .complete_message h1{
@@ -167,20 +202,20 @@
     }
 
     .two_box h5{
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
     }
 
     .flooring_banner h1{
-        font-size: 1.2rem !important;
+        font-size: 1.1rem !important;
     }
     .flooring_banner button{
-        font-size: .6rem !important;
+        font-size: .8rem !important;
     }
 
 
 }
 
-@media screen and (max-width:368px){
+@media screen and (max-width:358px){
     /* --------------------------------- navbar --------------------------------- */
 
     .navbar-toggler{
