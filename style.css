@@ -20,8 +20,10 @@
 .navbar-toggler-icon{
     font-size: 12px !important;
 }
-nav svg{
-    width: 80%;
+nav .navbar-brand img{
+    width: 60px!important;
+    height:60px !important;
+
 }
 .mid-section{
     width: 60%;
